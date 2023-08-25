@@ -1,8 +1,8 @@
 import random
 
-text = './news.txt'
-f = open(text, "r")
-print(f.read())
+text = r"C:\Users\user\Desktop\git\JDE7_02\news.txt"
+# f = open(text, "r")
+# print(f.read())
 
 
 def hammer_task_0():
@@ -12,22 +12,27 @@ def hammer_task_0():
     result = random.sample(teamJDE, 1)
     return result
   
-def memberOne():
+def JasonTSOI():
+    with open(text, "r") as f:
+        news = f.read()
+
+        lines = news.split('\n')
+        reversed_lines = [line[::-1] for line in lines]
+        return '\n'.join(reversed_lines)
+  
+def Frankie():
     pass
   
-def memberTwo():
+def Gemcy():
     pass
   
-def memberThree():
-    pass
-  
-def memberFour():
+def Yan():
     pass
 
 
 if __name__ == "__main__":
-    print(hammer())
-    print('call memberOne() ')
+    print(hammer_task_0())
+    print(JasonTSOI())
     print('call memberTwo() ')
     print('call memberThree() ')
     print('call memberFour() ')
