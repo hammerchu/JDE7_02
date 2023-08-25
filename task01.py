@@ -11,6 +11,13 @@ def hammer_task_0():
     teamJDE = ['hammer', 'billy', 'chistina']
     result = random.sample(teamJDE, 1)
     return result
+
+def hammer_task_1():
+    '''example function'''
+
+    teamJDE = ['hammer', 'billy', 'chistina']
+    result = random.sample(teamJDE, 1)
+    return result
   
 def memberOne():
     pass
