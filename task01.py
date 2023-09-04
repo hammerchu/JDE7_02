@@ -4,7 +4,7 @@ text = './news.txt'
 f = open(text, "r")
 print(f.read())
 
-
+ggdfdjfdjfdg
 def hammer_task_0():
     '''example function'''
 
